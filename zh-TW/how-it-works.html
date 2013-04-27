@@ -1,27 +1,28 @@
 ---
 layout: base-zh-TW
 id: how-it-works
-title: How does Bitcoin work? - Bitcoin
+title: Bitcoin 如何運作? - Bitcoin
 ---
-<h1>How does Bitcoin work?</h1>
+<h1>Bitcoin 如何運作?</h1>
 
-<p>OK, this is a question that often causes confusion. Here's a quick explanation!
+<p>這是個常令人感到困擾的問題，以下是速成的解釋！</p>
 
-<h2>The basics for a new user</h2>
-<p>As a new user, you only need to <a href="/zh-TW/choose-your-wallet">choose a wallet</a> that you will install on your computer or on your mobile phone. Once you have your wallet installed, it will generate your first Bitcoin address and you can create more whenever you need one. You can disclose one of your Bitcoin addresses to your friends so that they can pay you or vice versa, you can pay your friends if they give you their addresses. In fact, this is pretty similar to how email works. So all that is left to do at this point is to get some bitcoins and to <a href="/zh-TW/you-need-to-know">keep them safe</a>. In order to start using Bitcoin, you are not required to understand the technical details.</p>
+<h2>給新手的基礎知識</h2>
+<p>身為一個新手，你只需要<a href="/zh-TW/choose-your-wallet">決定你的錢包</a>是要安裝在自己的電腦上，或者是在你的手機上。一旦你的錢包安裝完成，你將會獲得你的第一個 Bitcoin 地址。如果你需要更多地址，隨時都可以產生出來。你可以告訴朋友你的地址，好讓他們付款給你。反之你也能先取得他們的地址，然後付款給他們。這就像是email的運作方式。現在你只需要取得一些 bitcoin 並<a href="/zh-TW/you-need-to-know">確保它們的安全</a>。你不需要瞭解技術細節才能開始使用 Bitcoin。</p>
 
-<p>However, if you want to know more, keep reading!</p>
+<p>不過，如果你想知道更多，請繼續閱讀！</p>
 
 <p><br><img src="/zh-TW/img/bitcoin_at_a_glance.svg" alt="Bitcoin overview" /></p>
 
-<h2>Blockchain</h2>
-<p>The blockchain is a <b>shared public transaction log</b> on which the entire Bitcoin network relies. All confirmed transactions are included in the blockchain with no exception. This way, new transactions can be verified to be spending bitcoins that are actually owned by the spender. The integrity and the chronological order of the blockchain are enforced with <a href="/zh-TW/vocabulary#cryptography">cryptography</a>.</p>
+<h2>區塊鍊</h2>
+<p>區塊鍊是整個 Bitcoin 網路所倚賴的<b>共享且公開的交易紀錄</b>。所有確認過的交易毫無例外的被存放在區塊鍊上，藉此我們可以確認新的交易確實是由 bitcoin 的所有者發出。區塊鍊的完整性以及時間順序是由<a href="/zh-TW/vocabulary#cryptography">密碼學</a>來保證的。</p>
 
-<h2>Transaction</h2>
-<p>A transaction is <b>a transfer of value between Bitcoin addresses</b> that gets included in the blockchain. Bitcoin wallets keep a secret piece of data called a <a href="/zh-TW/vocabulary#private-key"><i>private key</i></a> for each Bitcoin address. Private keys are used to sign transactions, providing a mathematical proof that they come from the owner of the addresses. The <a href="/zh-TW/vocabulary#signature"><i>signature</i></a> also prevents the transaction from being altered by anybody once it has been issued. All transactions are broadcast between users and confirmed by the network in the following minutes, through a process called <a href="/zh-TW/vocabulary#mining"><i>mining</i></a>.</p>
+<h2>交易</h2>
+<p>一筆交易即是區塊鍊中記載的 Bitcoin 地址之間的金錢轉移。Bitcoin 錢包內的每個地址都有對應的祕密資料，稱之為<a href="/zh-TW/vocabulary#private-key"><i>私密金鑰</i></a>。私密金鑰被用於替交易簽章，以提供數學上的證明這個交易確實是由該地址的擁有者發出。<a href="/zh-TW/vocabulary#signature"><i>簽章</i></a>同時能夠防止其他人竄改過去公佈的交易。所有的交易都會在使用者之間傳遞，並且在數分鐘內經由<a href="/zh-TW/vocabulary#mining"><i>採礦</i></a>的行為被網路確認。</p>
 
-<h2>Mining</h2>
+<h2>採礦</h2>
 <p>Mining is a <b>distributed consensus system</b> that is used to <a href="/zh-TW/vocabulary#confirmation"><i>confirm</i></a> waiting transactions by including them in the blockchain. It enforces a chronological order in the blockchain, protects the neutrality of the network, and allows different computers to agree on the state of the system. To be confirmed, transactions must be packed in a <a href="/zh-TW/vocabulary#block"><i>block</i></a> that fits very strict cryptographic rules that will be verified by the network. These rules prevent any previous block from being modified because doing so would invalidate all following blocks. Mining also creates the equivalent of a competitive lottery that prevents any individual from easily adding new blocks consecutively in the blockchain. This way, no individuals can control what is included in the blockchain or replace parts of the blockchain to roll back their own spends.</p>
+<p>採礦是一種<b>分散式系統</b>，用於<a href="/zh-TW/vocabulary#confirmation"><i>確認</i></a>交易並把交易加入區塊鏈之中。採礦確保區塊鏈的時間順序，保護網路的中立性，並且讓不同的電腦就系統的狀態取得共識。待確認的交易將會被打包到某個<a href="/zh-TW/vocabulary#block"><i>區塊</i></a>之中，而區塊必須滿足非常嚴格的密碼學規則。該規則被設計為，如果想要篡改某個區塊，此區塊之後的每個區塊都必須一併修改。網路將會檢查區塊是否符合規則，以避免過往的區塊被更改。採礦創造了一個競爭性的彩券系統，可避免任何人輕易的加入連續的區塊到區塊鏈中。藉由這個系統，沒有人能控制區塊鏈中將包含哪些交易，或是更動區塊鏈的某一部份，以消除他自己的付款紀錄。</p>
 
-<h2>Going down the rabbit hole</h2>
-<p>This is only a very short and concise summary of the system. If you want to get into the details, you can <a href="/bitcoin.pdf">read the original paper</a> that describes the system's design, and explore the <a href="https://en.bitcoin.it/wiki/Main_Page">Bitcoin wiki</a>.</p>
+<h2>跳進兔子洞</h2>
+<p>以上僅是 Bicoin 系統的精簡說明，如果想瞭解更多細節，你可以閱讀<a href="/bitcoin.pdf">原始論文</a>，其中描述了系統設計，或者是去逛逛<a href="https://en.bitcoin.it/wiki/Main_Page">Bitcoin wiki</a>。</p>
