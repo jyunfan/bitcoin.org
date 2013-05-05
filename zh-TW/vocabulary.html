@@ -1,63 +1,65 @@
 ---
+lang: zh-TW
 layout: base-zh-TW
 id: vocabulary
-title: Vocabulary - Bitcoin
+title: 詞彙 - Bitcoin
 ---
-<h1>Some Bitcoin words you might hear</h1>
-<p>Bitcoin provides a new approach to payments and as such, there are some new words that might become a part of your vocabulary. Don't worry, even the humble television created new words!</p>
-<h2>Table of contents</h2>
+<h1>你也許聽過這些 Bitcoin 用語</h1>
+<p>Bitcoin 提供了新的支付方法，而伴隨而來的新名詞或許會進入你的詞彙。別擔心，即使是最低層次的電視劇也會產生新的用語！</p>
+<h2>目錄</h2>
 <div class="index">
-<a href="#address">Address</a>
-<a href="#blockchain">Blockchain</a>
-<a href="#block">Block</a>
+<a href="#address">地址</a>
+<a href="#blockchain">區塊鏈</a>
+<a href="#block">區塊</a>
 <a href="#btc">BTC</a>
-<a href="#confirmation">Confirmation</a>
-<a href="#cryptography">Cryptography</a>
-<a href="#double-spend">Double Spend</a>
-<a href="#hash-rate">Hash Rate</a>
-<a href="#mining">Mining</a>
-<a href="#p2p">P2P - Peer To Peer</a>
-<a href="#private-key">Private Key</a>
-<a href="#signature">Signature</a>
-<a href="#wallet">Wallet</a>
+<a href="#confirmation">確認</a>
+<a href="#cryptography">密碼學</a>
+<a href="#double-spend">雙重支付</a>
+<a href="#hash-rate">雜湊速率</a>
+<a href="#mining">採礦</a>
+<a href="#p2p">點對點</a>
+<a href="#private-key">私密金鑰</a>
+<a href="#signature">簽章</a>
+<a href="#wallet">錢包</a>
 </div>
 
-<h2><a name="address">Address</a></h2>
-<p>A Bitcoin address is <b>like a physical address or an email</b>. It is the only information you need to provide for someone to pay you with Bitcoin.</p>
+<h2><a name="address">地址</a></h2>
+<p>Bitcoin的地址就如同<b>真實地址或是email</b>，這是你接受別人付款時，唯一需要提供的資訊。</p>
 
-<h2><a name="blockchain">Blockchain</a></h2>
-<p>The blockchain is a <b>public record of all Bitcoin transactions</b>, in chronological order. The blockchain is shared between all Bitcoin users. It is used to verify the balance of Bitcoin addresses and to prevent <a href="#double-spend">double spending</a>.</p>
+<h2><a name="blockchain">區塊鏈</a></h2>
+<p>區塊鏈是一個<b>公開且依照時間排序的Bitcoin交易紀錄</b>。所有的幣特幣用戶擁有相同區塊鏈，可用於驗證Bitcoin地址的餘額，以避免<a href="#double-spend">雙重支付</a>。</p>
 
-<h2><a name="block">Block</a></h2>
-<p>A block is a <b>record in the blockchain that contains and confirms many waiting transactions</b>. Roughly every 10 minutes on average, a new block including transactions is appended to the <a href="#blockchain">blockchain</a> through <a href="#mining">mining</a>.</p>
+<h2><a name="block">區塊</a></h2>
+<p>區塊是<b>區塊鏈中的一筆紀錄，其中包含並確認了在等待中的交易</b>。約平均每十分鐘就會有一個新的區塊經由<a href="#mining">採礦</a>被加到區塊鏈中。</p>
 
 <h2><a name="btc">BTC</a></h2>
-<p>BTC is the unofficial three letter code for Bitcoin. It can be used as an abbreviation, like USD for US dollar.</p>
+<p>BTC是非官方的Bitcoin的三個字母代碼，常用於縮寫，就像以USD表示美元。</p>
 
-<h2><a name="confirmation">Confirmation</a></h2>
-<p>Confirmation means that a transaction has been <b>verified by the network and is highly unlikely to be reversed</b>. One confirmation is pretty secure. Though for larger amounts ( ex. 1000 $USD and above ), one can wait for a transaction to have more confirmations - 6 is a frequently chosen number. Each new confirmation decreases the risk of a reversal exponentially.</p>
+<h2><a name="confirmation">確認</a></h2>
+<p>"確認"意味著一筆交易已經<b>被網路檢驗，並且難以被逆轉</b>。一個確認已經很安全，然而當轉移大量金錢時(如ㄧ千美金以上)，請多等待數個確認，常用的數字是六個確認。每個新的確認都使得風險以指數程度下降。</p>
 
-<h2><a name="cryptography">Cryptography</a></h2>
-<p>Cryptography is the branch of mathematics that lets us create <b>mathematical proofs that provide high levels of security</b>. Online commerce and banking already uses cryptography. In the case of Bitcoin, cryptography is used to make it impossible for anybody to spend funds from another user's wallet or to corrupt the <a href="#blockchain">blockchain</a>. It can also be used to encrypt a wallet, so that it cannot be used without a password.</p>
+<h2><a name="cryptography">密碼學</a></h2>
+<p>密碼學是<b>數學的一支，提供數學證明以確保高層次安全性</b>。線上貿易和銀行早已使用密碼學。在 Bitcoin 方面，密碼學用於避免有人使用別人的錢包，或是破壞<a href="#blockchain">區塊鏈</a>。密碼學亦可用於加密錢包，使得持有密碼的人才能使用此錢包。</p>
 
-<h2><a name="double-spend">Double Spend</a></h2>
-<p>If a malicious user tries to <b>spend their bitcoins to two different recipients at the same time</b>, this is double spending. Bitcoin <a href="#mining">mining</a> and the <a href="#blockchain">blockchain</a> are there to create a consensus on the network about which of the two transactions will win.</p>
-</p>
+<h2><a name="double-spend">雙重支付</a></h2>
+<p>若一個惡意的使用者嘗試<b>同時把自己的Bitcoin付給兩個不同的收款人</b>，就稱為雙重支付。Bitcoin<a href="#mining">採礦</a>和<a href="#blockchain">區塊鏈</a>應運而生，以令網路產生共識，決定哪一個交易會被勝出。</p>
 
-<h2><a name="hash-rate">Hash Rate</a></h2>
-<p>The hash rate is the <b>measuring unit of the processing power of the Bitcoin network</b>. The Bitcoin network must make intensive mathematical operations for security purposes. When the network reaches a hash rate of 10 TH/s, it means it can make ten trillion calculations per second.</p>
+<h2><a name="hash-rate">雜湊速率</a></h2>
+<p>雜湊速率是用來測量Bitcoin網路計算能力的單位。Bitcoin 網路必須計算大量的數學運算以維持安全。當我們說網路的雜湊速率達到10 TH/s時，表示網路每秒可以計算10兆個雜湊。</p>
 
-<h2><a name="mining">Mining</a></h2>
+<h2><a name="mining">採礦</a></h2>
 <p>Bitcoin mining is the process of <b>making computer hardware do mathematical calculations for the Bitcoin network to confirm transactions</b> and increase security. As a reward for their services, Bitcoin miners can collect transaction fees for the transactions they confirm along with newly created bitcoins. Mining is a specialized and competitive market where the rewards are divided up according to how much calculation is done. Not all Bitcoin users do Bitcoin mining and it is not an easy way to make money.</p>
+<p>Bitcoin 採礦是一種令電腦硬體進行數學運算的程序，用於確認交易和增加網路的安全。Bitcoin 採礦者可以獲得交易手續費和新產生的 bitcoin 作為回報。採礦的回報是依據計算量的多寡來分配的，這使得採礦成為一個專業且競爭的市場。因為採礦並非容易賺錢的方法，所以不是所有的 Bitcoin 使用者都在採礦。</p>
 
-<h2><a name="p2p">P2P</a></h2>
+<h2><a name="p2p">點對點</a></h2>
 <p>Peer to peer refers to <b>systems that work like an organized collective</b> by allowing each individual to interact directly with the others. In the case of Bitcoin, the network is built in such a way that each user is broadcasting transactions of other users. And crucially, no bank is required as a third party.</p>
+<p>點對點是指<b>系統以有組織的方式運作</b>，其中每個參與者都能夠和其他人互動。對Bitcoin 來說，網路被設計成每個使用者都會將交易廣播給其他使用者。最重要的是，此種運作方式不需要銀行作為交易的第三方。</p>
 
-<h2><a name="private-key">Private Key</a></h2>
-<p>A private key is a <b>secret piece of data that proves your right to spends Bitcoin from a specific Bitcoin address</b> through a cryptographic <a href="#signature">signature</a>. Each <a href="#address">Bitcoin address</a> has its own unique private key. Your private keys are stored in your computer if you use a software wallet while they are stored on some remote servers if you use a web wallet. Private keys must never be revealed as they allow you to spend bitcoins for their respective Bitcoin addresses.</p>
+<h2><a name="private-key">私密金鑰</a></h2>
+<p>私密金鑰是祕密的資料，可用於證明你有權力利用密碼學上的<a href="#signature">簽章</a>來使用特定 Bitcoin 地址內的錢。每個<a href="#address">Bitcoin位置</a>含都有獨一無二的私密金鑰。若你使用軟體錢包，你的私密金鑰是存放在你的電腦上；若你使用網路錢包，金鑰則是存放在遠端伺服器上。千萬不要公開你的私密金鑰，否則取得金鑰的人都能夠使用其對應的 Bitcoin 地址內的錢。</p>
 
-<h2><a name="signature">Signature</a></h2>
-<p>A <a href="#cryptography">cryptographic</a> signature is <b>a mathematical mechanism that allows someone to prove ownership</b>. In the case of Bitcoin, a <a href="#address">Bitcoin address</a> and its <a href="#private-key">private key</a> are linked by some mathematical magic. When your Bitcoin software signs a transaction with the appropriate private key, the whole network can see that the signature matches the Bitcoin address. However, there is no way for the world to guess your private key to steal your hard-earned bitcoins.</p>
+<h2><a name="signature">簽章</a></h2>
+<p><a href="#cryptography">密碼學</a>上的簽章，是一種數學機制讓某人證明他的所有權。在 Bitcoin 的情況，<a href="#address">Bitcoin地址</a>和其<a href="#private-key">私密金鑰</a>被某種神奇的數學連結在一起。當 Bitcoin 軟體用你的私密金鑰替交易簽章時，整個網路都可以看到這個簽章和對應的 Bitcoin 地址相符合。然而，目前並沒有方法可以猜出你的私密金鑰，進而偷走你辛苦賺來的 bitcoin。</p>
 
-<h2><a name="wallet">Wallet</a></h2>
-<p>A Bitcoin wallet refers to <b>the equivalent of a physical wallet on the Bitcoin network</b>. Each Bitcoin wallet can show you the total balance of all <a href="#address">Bitcoin addresses</a> it contains. Just like you can count the money in your real wallet. And in the same way, a Bitcoin wallet allows you to pay a specific amount to a specific person. This is different to credit cards where you are charged by the merchant.</p>
+<h2><a name="wallet">錢包</a></h2>
+<p>Bitcoin 錢包就像 Bitcoin 網路上的實體錢包。你可以看到一個 Bitcoin 錢包內的所有<a href="#address">Bitcoin 地址</a>的餘額總和，就像你能夠數數看你的真實錢包裡有多少錢。Bitcoin 錢包亦允許你支付特定金額給指定的人。這和信用卡的差別在於，使用信用卡時，你是被商家收取他所指定的金額。</p>
