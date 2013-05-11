@@ -2,6 +2,7 @@ DOWNLOAD_VERSION: 0.8.1
 
 ALERT_CLASS:
   all: 
+  zh-TW: 
   en: 
   es: 
   fr: 
@@ -9,18 +10,21 @@ ALERT_CLASS:
   
 ALERT:
   all: 
+  zh-TW: 
   en: 
   es: 
   fr: 
   nl: 
 
 langsorder:
+- id: zh-TW
 - id: en
 - id: es
 - id: fr
 - id: nl
 
 langs:
+  zh-TW: 繁體中文
   en: English
   es: Español
   fr: Français
@@ -37,26 +41,31 @@ section:
     es: acerca-de
     fr: a-propos
     nl: over-bitcoin
+    zh-TW: about
   bitcoin-for-developers:
     en: bitcoin-for-developers
     es: bitcoin-para-desarrolladores
     fr: bitcoin-pour-developpeurs
     nl: bitcoin-voor-ontwikkelaars
+    zh-TW: bitcoin-for-developers
   bitcoin-for-enthusiasts:
     en: bitcoin-for-enthusiasts
     es: bitcoin-para-entusiastas
     fr: bitcoin-pour-passionnes
     nl: bitcoin-voor-liefhebbers
+    zh-TW: bitcoin-for-enthusiasts
   bitcoin-for-individuals:
     en: bitcoin-for-individuals
     es: bitcoin-para-personas
     fr: bitcoin-pour-particuliers
     nl: bitcoin-voor-particulieren
+    zh-TW: bitcoin-for-individuals
   bitcoin-for-businesses:
     en: bitcoin-for-businesses
     es: bitcoin-para-empresas
     fr: bitcoin-pour-entreprises
     nl: bitcoin-voor-bedrijven
+    zh-TW: bitcoin-for-businesses
   bitcoin-for-press:
     en: bitcoin-for-press
   choose-your-wallet:
@@ -64,36 +73,43 @@ section:
     es: elige-tu-monedero
     fr: choisir-votre-porte-monnaie
     nl: kies-uw-portemonnee
+    zh-TW: choose-your-wallet
   community:
     en: community
     es: comunidad
     fr: communaute
     nl: community
+    zh-TW: community
   development:
     en: development
     es: desarrollo
     fr: developpement
     nl: ontwikkeling
+    zh-TW: development
   download:
     en: download
     es: descargar
     fr: telecharger
     nl: download
+    zh-TW: download
   foundation:
     en: foundation
     es: fundacion
     fr: fondation
     nl: stichting
+    zh-TW: foundation
   how-it-works:
     en: how-it-works
     es: como-funciona
     fr: comment-ca-marche
     nl: hoe-het-werkt
+    zh-TW: how-it-works
   resources:
     en: resources
     es: recursos
     fr: ressources
     nl: hulpmiddelen
+    zh-TW: resources
   secure-your-wallet:
     en: secure-your-wallet
   support-bitcoin:
@@ -101,6 +117,7 @@ section:
     es: apoya-bitcoin
     fr: supporter-bitcoin
     nl: help-bitcoin
+    zh-TW: support-bitcoin
   version-history:
     en: version-history
   vocabulary:
@@ -108,11 +125,13 @@ section:
     es: vocabulario
     fr: vocabulaire
     nl: woordenlijst
+    zh-TW: vocabulary
   you-need-to-know:
     en: you-need-to-know
     es: debes-saber
     fr: vous-devez-savoir
     nl: wat-u-moet-weten
+    zh-TW: you-need-to-know
 
 vocabulary:
   address:
